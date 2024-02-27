@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>testeDB</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>serverFornecedor</display-name>
+    <servlet-name>serverFornecedor</servlet-name>
+    <servlet-class>Controller.serverFornecedor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>serverFornecedor</servlet-name>
+    <url-pattern>/serverFornecedor</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>fornecedorServer</display-name>
+    <servlet-name>fornecedorServer</servlet-name>
+    <servlet-class>Controller.fornecedorServer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>fornecedorServer</servlet-name>
+    <url-pattern>/fornecedorServer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>serverfor</display-name>
+    <servlet-name>serverfor</servlet-name>
+    <servlet-class>Controller.serverfor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>serverfor</servlet-name>
+    <url-pattern>/serverfor</url-pattern>
+  </servlet-mapping>
+</web-app>
